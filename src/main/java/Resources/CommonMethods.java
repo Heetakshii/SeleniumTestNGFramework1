@@ -23,7 +23,7 @@ public class CommonMethods
 		
 		SoftAssert sa = new SoftAssert();
 		
-		sa.assertEquals(ActualText,expectedtext,message);
+		sa.assertEquals(ActualText,ExpectedErrorMessage,message);
 			
 		sa.assertAll();
 	}
